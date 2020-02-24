@@ -6,7 +6,7 @@ console.log('Amps Client Version : ', Client.version());
 
 const ampsClient = new Client('TraderWorkStationClient');
 
-ampsClient.connect('ws://mrudang-WS-Z390-PRO:9010/amps/json').then(value => {
+ampsClient.connect('ws://localhostL9090/amps/json').then(value => {
     console.log('Connected...');
     const md = new MarketData();
     md.Cusip = '10Y';
