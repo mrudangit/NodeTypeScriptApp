@@ -17,5 +17,7 @@
     "tslint": "^6.0.0",
     "typescript": "^3.8.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "amps": "^5.3.0-3.46209.9d2418d"
+  }
 }
